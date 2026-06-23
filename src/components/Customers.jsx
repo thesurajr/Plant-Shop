@@ -39,7 +39,7 @@ function Customers() {
               </div>
             </div>
           </div>
-         <div className='mt-4 p-4 pb-0 md:p-8 md:pb-0 bg-blue-200 w-full h-auto rounded-2xl'>
+          <div className='mt-4 p-4 pb-0 md:p-8 md:pb-0 bg-blue-200 w-full h-auto rounded-2xl'>
             <p className='text-xs md:text-md'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, eos tempore. Officiis assumenda nesciunt maiores? Ipsa, voluptatum quos corrupti eaque assumenda perspiciatis dolorum exercitationem nesciunt odio consequatur sed iusto totam.
             </p>

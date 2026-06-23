@@ -4,7 +4,7 @@ import Greenmind from "../assets/GREENMIND.png";
 import { CiShoppingCart, CiUser } from "react-icons/ci";
 import { MdOutlineSegment } from "react-icons/md";
 import { RxDividerVertical } from "react-icons/rx";
-// import "../components/Navbar.css";
+
 function Navbar() {
   return (
     <nav className="w-full h-14 flex items-center justify-center">
@@ -27,7 +27,6 @@ function Navbar() {
               Contact
             </Link>
           </div>
-
         </div>
         <div className="hidden md:flex justify-between items-center text-center gap-8 text-lg">
           <Link to="/cart" className=""><CiShoppingCart /></Link>
@@ -38,39 +37,8 @@ function Navbar() {
         <div className="md:hidden">
           &#9776;
         </div>
-
       </div>
-
     </nav>
-    // <nav>
-    //   <div className="navbar">
-    //     <div className="navbar-container">
-    //       <div className="logo">
-    //         <img src={Greenmind} alt="greenmind logo" />
-    //       </div>
-    //       <div className="navbar-links">
-    //         <NavLink
-    //           to="/"
-    //           className={({ isActive }) => (isActive ? "active-link" : "")}
-    //         >
-    //           Home
-    //         </NavLink>
-    //         <Link to="/products" className="nav-links">
-    //           Products
-    //         </Link>
-    //         <Link to="/contact" className="nav-links">
-    //           Contact
-    //         </Link>
-    //       </div>
-    //     </div>
-    //     <div className="navbar-icons">
-    //       <Link to="/cart" className="shopping-cart"><CiShoppingCart /></Link>
-    //       <Link to="/admin" className="admin"><CiUser /></Link>
-    //         <RxDividerVertical size={30} />
-    //       <Link to="/hamburger/menu" className="hamburger-btn"><MdOutlineSegment /></Link>
-    //     </div>
-    //   </div>
-    // </nav>
   );
 }
 

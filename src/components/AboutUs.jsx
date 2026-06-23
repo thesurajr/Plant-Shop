@@ -23,7 +23,7 @@ function AboutUs() {
               />
             </div>
             <h3 className="font-bold text-lg md:text-sm">Large Assortment</h3>
-            <p className= "text-gray-500 md:w-[160px] md:text-sm lg:w-[310px]">
+            <p className="text-gray-500 md:w-[160px] md:text-sm lg:w-[310px]">
               we offer many different types of products with fewer variations in
               each category.
             </p>

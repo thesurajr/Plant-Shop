@@ -45,10 +45,7 @@ function Category() {
           <p className="w-auto items-cente mx-auto py-4 text-gray-600 text-md ">
             Lorem ipsum dolor amet consectetur adipisicing elit. Architecto, nulla?
           </p>
-
         </div>
-
-
       </div>
     </div>
   );
